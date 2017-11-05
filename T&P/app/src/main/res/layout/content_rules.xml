@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_rules"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.muska.tp.Rules"
+    tools:showIn="@layout/activity_rules">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/rules"
+        android:id="@+id/imageView2" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="THE RULES"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The companies coming for the campus recruitments get to choose from the very best of the students in the country. These companies are helped out with all the visit related assistance like: "
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lodging and boarding arrangements in the University Guest House and nearby HotelsAuditoriums/Seminar Room for pre-placement talks
+Venues for Tests, Group-discussion and interviews
+Audio-visual and internet facilites for pre-placement talk"
+                android:paddingBottom="10dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="Invitations are sent to companies/organizations with relevant information and Job Notification Form (JNF)."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="Company/organization fills the JNF and sends it by post or email attachment to Professor Training and Placement , MMMUT Gorakhpur , along with possible dates for Campus or Pre-Placement Talk (PPT)
+The JNF and any other information provided by the company is made available to the students via TnP notice . Interested students register for PPT and companies receive a confirmation of date for Campus /PPT."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="The Placement office allots the dates for the campus interviews. The company/organization can negotiate or confirm the dates with the placement office.
+Company/organization conducts their campus process in assistance with professor (TnP) along with TnP Cell volunteers.
+After the completion of selection procedure at the campus, company is required to announce the final lists of the students.
+If a student is selected, a job is registered against him/her and they would not be allowed to appear for other companies as per University single job placement policy however the decision may be changed with the permission of Vice Chancellor"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
